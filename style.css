@@ -93,7 +93,7 @@
 }
 
 .Story {
-    background-image: url(img/bg-last.jpg);
+    background-image: url(bg-last.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 50vh;
