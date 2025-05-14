@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    border-bottom: 8px solid black;
+
+}
+
+.navbar-nav li {
+
+    margin: 5px;
+}
+
+.navbar-nav li a {
+    margin-right: 15px;
+}
+
+.navbar-nav input {
+    border-radius: 80px;
+    width: 300px;
+}
+
+.Handcrafted .col-md-2 img:hover {
+    border: 2px solid green;
+    box-shadow: 2px 2px 4px black;
+    cursor: pointer;
+}
+.Handcrafted2 .img img:hover {
+    border: 2px solid green;
+    box-shadow: 2px 2px 4px black;
+    cursor: pointer;
+}
+
+.Barista {
+    background-color: rgb(240, 236, 236);
+    height: 260px;
+}
+
+.cards {
+    display: flex;
+}
+
+.cards .item {
+    display: flex;
+    background-color: white;
+    padding: 18px;
+    border-radius: 12px;
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    border: 1px solid rgb(192, 191, 191);
+}
+
+.item img {
+    border-radius: 10px;
+}
+
+.seller {
+    background-color: rgb(253, 202, 193);
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 18px;
+    padding: 20px;
+}
+
+.seller.row {
+    padding: 20px;
+}
+
+.card {
+
+    box-shadow: 2px 2px 6px black;
+}
+
+.cards .item:hover {
+    cursor: pointer;
+}
+
+.col .card:hover {
+    cursor: pointer;
+}
+
+.Learn {
+    background-color: rgb(230, 228, 228);
+    padding: 25px;
+}
+
+.Learn:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.Story {
+    background-image: url(img/bg-last.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50vh;
+
+    border-radius: 18px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: rgb(4, 29, 2);
+    color: white;
+    padding: 25px;
+}
+
+.Handcrafted2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px;
+    display: none;
+}
+.Handcrafted2 .img{
+    margin: 10px;
+}
+
+@media (max-width:768px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Barista {
+        background-color: rgb(240, 236, 236);
+        height: 100vh;
+    }
+
+    .Handcrafted .row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .Handcrafted {
+        display: none;
+    }
+
+    .Handcrafted2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        margin-right: 15px;
+        padding: 20px;
+        margin-top: 80px;
+    }
+}
